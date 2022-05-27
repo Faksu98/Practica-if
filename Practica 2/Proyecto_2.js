@@ -6,17 +6,19 @@ var bxe = "por def";
 var bxd = "por def;"
 
 function calcularBxE(){
+    Bitcoin = document.querySelector('#E').value;
     if(Bitcoin >= 1){
         document.querySelector('#resultado_final').innerHTML=`
-            <h1> usted a recibio  ${Bitcoin * ETHEREUM : bxe} </h1>
+            <h1> usted a recibio  ${bxe = Bitcoin * ETHEREUM} </h1>
         `;
     }
 }
 
 function calcularBxD(){
+    Bitcoin = document.querySelector('#D').value;
     if(Bitcoin >= 1){
         document.querySelector('#resultado_final').innerHTML=`
-        <h1> usted a recibio  ${Bitcoin * DOLAR; {bxd}} </h1>
+        <h1> usted a recibio  ${bxd = Bitcoin * DOLAR} </h1>
     `;
     }
 }
