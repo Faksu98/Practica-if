@@ -14,9 +14,9 @@ function verificacion(){
             document.querySelector('#box_pelicula').innerHTML = `
             <h3> Por favor ingrese a la sala numero 2 </3>
             `;
-    }else(seleccion == BOB_AMBORGESA){
+    }else if(seleccion == BOB_AMBORGESA){
         document.querySelector('#box_pelicula').innerHTML = `
         <h3> Por favor ingrese a la sala numero 3 </3>
         `;
-    }
+    }else{}
 }
